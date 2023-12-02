@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+  width: 100%;
+  height: 70px;
+}
+.logo {
+  padding-top: 15px;
+}
+.social{
+	padding-top: 20px
+}
+.menu{padding-top: 15px}
+.menu ul{
+	margin: 0; padding:0; list-style: none; display: flex
+}
+.menu ul li a{
+	padding: 10px 20px; text-decoration: none; color:#585858; border-radius: 10px
+}
+.banner {
+  width: 100%;
+  min-height: 500px;
+  position: relative;
+}
+.caption {
+  position: absolute;
+  width: 20%;
+  left: 10%;
+  top: 10%;
+}
+.banner-resize {
+  width: 100%;
+  min-height: 500px;
+}
+li {
+  flex: 1;
+  list-style: none;
+  position: relative;
+  font-size: 17px;
+  transition: 0.5s ease;
+  cursor: pointer;
+  user-select: none;
+}
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+li:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #f564a9
+}
+li:hover:nth-of-type(2) ~ .bar {
+  left: 20%
+}
+li:hover:nth-of-type(3) ~ .bar {
+  left: 40%
+}
+li:hover:nth-of-type(4) ~ .bar {
+  left: 60%
+}
+li:hover:nth-of-type(5) ~ .bar {
+  left: 80%
+}
+.bar {
+  width: 18%;
+  background-color: #945336;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s ease;
+}
+.menu{padding-top: 2%}
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+.menu ul li a:hover{
+	background-color: darkred; color: white
+}
+.icon-align {
+  padding-top: 15px;
+}
+.text-nau {
+  color: #945336
+}
+.text-naunhat {
+  color: #C9886B
+}
+.button-shop {
+  color: #945336;
+}
+.button-shop:hover {
+  background-color: #945336;
+  color: #EBEBEB;
+}
+.text-deco {
+  text-decoration: none
+}
+main{
+	width: 100%; min-height: 800px
+}
+.gach-chan{
+	border-bottom: 3px solid darkred
+}
+text-do{
+	color: darkred
+}
+.vien-do{
+	border: 1px solid darkred; position: relative; overflow: hidden
+}
+.icon{
+	position: absolute; width: 80%; height: 40%; left: 10%; top 12%; display: flex; justify-content: space-around; transition: 1s
+}
+.icon a{
+	width: 40px; height: 40px; background-color: #dbdbdb; border-radius: 50%; display: flex; justify-content: center; align-items: center; text-decoration: none;color: darkred
+}
+.icon a:hover{
+	background-color: darkred; color: white
+}
+.vien-do:hover .icon{
+	top: 40%
+}
+.sp{
+	padding: 0 20px
+}
+.vien-trang a{
+	text-decoration: none; color: darkred
+}
+.vien-trang a:hover{
+	color: white
+}
+.pt-30{
+	padding-top: 30px
+}
+#contact{
+	width: 100%; min-height: 500px; background: url("Banner2.png"); background-repeat: no-repeat; background-position: center; background-size: cover
+}
+.bong{
+	border: 1px solid gray; width: 100%;min-height: 400px; box-shadow: 5px 5px 5px gray; padding: 40px
+}
+#product{
+	width: 100%; min-height: 600px; background: url("bg2.png"); background-repeat: no-repeat; background-size: cover; background-position: center bottom
+}
+.vien-trang{
+	border:1px solid white; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 150px
+}
+main{
+	width: 100%; min-height: 800px
+}
+.gach-chan{
+	border-bottom: 3px solid darkred
+}
+.text-do{
+	color: darkred
+}
+.vien-do{
+	border: 1px solid darkred; position: relative
+}
+.icon{
+	position: absolute; width: 80%; height: 40px; left: 10%; top: 40%; display: flex;justify-content: center
+}
+.icon a{
+	width: 40px; height: 40px; background-color: #dbdbdb; border-radius: 50%; display: flex; justify-content: center;align-items: center; text-decoration: none; color: darkred
+}
+.icon a:hover{
+	background-color: darkred; background-color: white
+}
+.vien-do:hover .icon{
+	top: 40%
+}
